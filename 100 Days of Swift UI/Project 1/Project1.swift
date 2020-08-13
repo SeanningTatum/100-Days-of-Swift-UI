@@ -37,6 +37,7 @@ struct Project1: View {
 
     // MARK: - Body
     var body: some View {
+
         Form {
             TextField("Check Amount", text: $checkAmount)
                 .keyboardType(.decimalPad)
@@ -67,6 +68,12 @@ struct Project1: View {
             }
 
         }
+        .gesture(
+            DragGesture()
+                .onChanged { _ in
+                    self.hideKeyboard()
+                }
+        )
         .navigationBarTitle("WeSplit", displayMode: .inline)
 
     }

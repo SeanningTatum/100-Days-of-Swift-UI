@@ -1,5 +1,6 @@
 disabled_rules:
     - type_name
+    - multiple_closures_with_trailing_closure
 
 excluded:
     - SceneDelegate.swift

@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct Project2: View {
+    @State var showAlert: Bool = false
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text("Hello, World!")
+            Button(action: { self.showAlert.toggle() }) {
+                Text("Toggle Alert")
+            }
+        }
+        .alert(isPresented: $showAlert) {
+            Alert(
+                title: Text("This is an alert"),
+                message: Text("This is the description"),
+                dismissButton: .cancel()
+            )
+        }
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1413453024E558FE004730D2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413452F24E558FE004730D2 /* View.swift */; };
 		14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19224E5328B0099BFAE /* AppDelegate.swift */; };
 		14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19424E5328B0099BFAE /* SceneDelegate.swift */; };
 		14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19624E5328B0099BFAE /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1413452F24E558FE004730D2 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		14E4B18F24E5328B0099BFAE /* 100 Days of Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100 Days of Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E4B19224E5328B0099BFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14E4B19424E5328B0099BFAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1413452E24E558E4004730D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1413452F24E558FE004730D2 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		14E4B18624E5328B0099BFAE = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		14E4B19124E5328B0099BFAE /* 100 Days of Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				1413452E24E558E4004730D2 /* Extensions */,
 				14E4B1A924E5448A0099BFAE /* Project 2 */,
 				14E4B1A624E532A50099BFAE /* Project 1 */,
 				14E4B19224E5328B0099BFAE /* AppDelegate.swift */,
@@ -195,6 +206,7 @@
 			files = (
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
 				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
+				1413453024E558FE004730D2 /* View.swift in Sources */,
 				14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,
 				14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */,

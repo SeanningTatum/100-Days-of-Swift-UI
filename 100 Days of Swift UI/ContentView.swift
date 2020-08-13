@@ -16,7 +16,7 @@ struct ContentView: View {
                     Text("Project 1 (WeSplit)")
                 }
                 NavigationLink(destination: Project2()) {
-                    Text("Project 2")
+                    Text("Project 2 (Guess the Flag)")
                 }
             }
             .navigationBarTitle("Project List")
