@@ -14,6 +14,7 @@
 		14E4B19C24E5328F0099BFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4B19B24E5328F0099BFAE /* Preview Assets.xcassets */; };
 		14E4B19F24E5328F0099BFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E4B19D24E5328F0099BFAE /* LaunchScreen.storyboard */; };
 		14E4B1A824E533020099BFAE /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B1A724E533020099BFAE /* Project1.swift */; };
+		14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B1AB24E544A60099BFAE /* Project2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		14E4B19E24E5328F0099BFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E4B1A024E5328F0099BFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14E4B1A724E533020099BFAE /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
+		14E4B1AB24E544A60099BFAE /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		14E4B19124E5328B0099BFAE /* 100 Days of Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				14E4B1A924E5448A0099BFAE /* Project2 */,
 				14E4B1A624E532A50099BFAE /* Project 1 */,
 				14E4B19224E5328B0099BFAE /* AppDelegate.swift */,
 				14E4B19424E5328B0099BFAE /* SceneDelegate.swift */,
@@ -84,6 +87,14 @@
 				14E4B1A724E533020099BFAE /* Project1.swift */,
 			);
 			path = "Project 1";
+			sourceTree = "<group>";
+		};
+		14E4B1A924E5448A0099BFAE /* Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				14E4B1AB24E544A60099BFAE /* Project2.swift */,
+			);
+			path = Project2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
 				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
+				14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,
 				14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */,
 			);
