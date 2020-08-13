@@ -13,8 +13,9 @@
 		14E4B19924E5328F0099BFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4B19824E5328F0099BFAE /* Assets.xcassets */; };
 		14E4B19C24E5328F0099BFAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4B19B24E5328F0099BFAE /* Preview Assets.xcassets */; };
 		14E4B19F24E5328F0099BFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E4B19D24E5328F0099BFAE /* LaunchScreen.storyboard */; };
-		14E4B1A824E533020099BFAE /* Project1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B1A724E533020099BFAE /* Project1.swift */; };
+		14E4B1A824E533020099BFAE /* ProjectOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B1A724E533020099BFAE /* ProjectOne.swift */; };
 		14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B1AB24E544A60099BFAE /* Project2.swift */; };
+		14E4B1B124E546E00099BFAE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14E4B1B024E546E00099BFAE /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		14E4B19B24E5328F0099BFAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14E4B19E24E5328F0099BFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E4B1A024E5328F0099BFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14E4B1A724E533020099BFAE /* Project1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1.swift; sourceTree = "<group>"; };
+		14E4B1A724E533020099BFAE /* ProjectOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectOne.swift; sourceTree = "<group>"; };
 		14E4B1AB24E544A60099BFAE /* Project2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2.swift; sourceTree = "<group>"; };
+		14E4B1B024E546E00099BFAE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 		14E4B19124E5328B0099BFAE /* 100 Days of Swift UI */ = {
 			isa = PBXGroup;
 			children = (
-				14E4B1A924E5448A0099BFAE /* Project2 */,
+				14E4B1A924E5448A0099BFAE /* Project 2 */,
 				14E4B1A624E532A50099BFAE /* Project 1 */,
 				14E4B19224E5328B0099BFAE /* AppDelegate.swift */,
 				14E4B19424E5328B0099BFAE /* SceneDelegate.swift */,
@@ -69,6 +71,7 @@
 				14E4B19D24E5328F0099BFAE /* LaunchScreen.storyboard */,
 				14E4B1A024E5328F0099BFAE /* Info.plist */,
 				14E4B19A24E5328F0099BFAE /* Preview Content */,
+				14E4B1B024E546E00099BFAE /* .swiftlint.yml */,
 			);
 			path = "100 Days of Swift UI";
 			sourceTree = "<group>";
@@ -84,17 +87,17 @@
 		14E4B1A624E532A50099BFAE /* Project 1 */ = {
 			isa = PBXGroup;
 			children = (
-				14E4B1A724E533020099BFAE /* Project1.swift */,
+				14E4B1A724E533020099BFAE /* ProjectOne.swift */,
 			);
 			path = "Project 1";
 			sourceTree = "<group>";
 		};
-		14E4B1A924E5448A0099BFAE /* Project2 */ = {
+		14E4B1A924E5448A0099BFAE /* Project 2 */ = {
 			isa = PBXGroup;
 			children = (
 				14E4B1AB24E544A60099BFAE /* Project2.swift */,
 			);
-			path = Project2;
+			path = "Project 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +110,7 @@
 				14E4B18B24E5328B0099BFAE /* Sources */,
 				14E4B18C24E5328B0099BFAE /* Frameworks */,
 				14E4B18D24E5328B0099BFAE /* Resources */,
+				14E4B1AD24E5455D0099BFAE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -155,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E4B1B124E546E00099BFAE /* .swiftlint.yml in Resources */,
 				14E4B19F24E5328F0099BFAE /* LaunchScreen.storyboard in Resources */,
 				14E4B19C24E5328F0099BFAE /* Preview Assets.xcassets in Resources */,
 				14E4B19924E5328F0099BFAE /* Assets.xcassets in Resources */,
@@ -163,13 +168,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14E4B1AD24E5455D0099BFAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14E4B18B24E5328B0099BFAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
-				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
+				14E4B1A824E533020099BFAE /* ProjectOne.swift in Sources */,
 				14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,
 				14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */,

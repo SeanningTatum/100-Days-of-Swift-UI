@@ -21,7 +21,7 @@ struct ContentView: View {
             }
             .navigationBarTitle("Project List")
         }
-        
+
     }
 }
 

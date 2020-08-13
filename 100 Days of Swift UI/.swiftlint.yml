@@ -1,0 +1,6 @@
+disabled_rules:
+    - type_name
+
+excluded:
+    - SceneDelegate.swift
+    - AppDelegate.swift
