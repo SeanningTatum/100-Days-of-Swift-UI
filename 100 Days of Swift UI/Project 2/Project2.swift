@@ -74,7 +74,7 @@ struct Project2: View {
                 }
 
                 VStack {
-                    ForEach(0 ..< 3) { ndx in
+                    ForEach(0 ..< 3, id: \.self) { ndx in
                         Button(action: { self.onTapFlag(ndx) }) {
                             self.makeFlag(self.countries[ndx])
                         }
@@ -83,6 +83,7 @@ struct Project2: View {
 
                 Spacer()
             }
+            .padding(.top, 20)
         }
         .alert(isPresented: $showScore) {
             Alert(
@@ -93,6 +94,8 @@ struct Project2: View {
                 }
             )
         }
+        .navigationBarTitle("Guess the Flag", displayMode: .inline)
+
     }
 
     // MARK: - View Methods

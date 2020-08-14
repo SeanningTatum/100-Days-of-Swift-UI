@@ -13,15 +13,38 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink(destination: Project1()) {
-                    Text("Project 1 (WeSplit)")
+                    makeNavigationItem(
+                        title: "Project 1 (WeSplit)",
+                        description: "TextField, Segmented Controls, Picker, State, Dismiss Keyboard"
+                    )
                 }
                 NavigationLink(destination: Project2()) {
-                    Text("Project 2 (Guess the Flag)")
+                    makeNavigationItem(
+                        title: "Project 2 (Guess the Flag)",
+                        description: "Alerts, View Modifers, Gradients, Images"
+                    )
+                }
+                NavigationLink(destination: Project4()) {
+                    makeNavigationItem(
+                        title: "Project 4 (Better Rest)",
+                        description: "CreateML, CoreML, Stepper, Datepicker, Dates"
+                    )
                 }
             }
             .navigationBarTitle("Project List")
         }
+    }
 
+    func makeNavigationItem(title: String, description: String) -> some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(title)
+                .font(.headline)
+                .fontWeight(.medium)
+            Text(description)
+                .font(.caption)
+                .foregroundColor(Color.gray)
+        }
+        .padding(.vertical, 5)
     }
 }
 
