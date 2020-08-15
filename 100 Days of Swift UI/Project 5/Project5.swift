@@ -11,55 +11,33 @@
 import SwiftUI
 
 struct Project5: View {
-    //MARK: - Variables
-    let people = ["Finn", "Leia", "Luke", "Rey"]
-    
-    //MARK: - Methods
-    func checkIfWordExists(word: String) -> Bool {
-        let checker = UITextChecker()
+    // MARK: - Variables
+    @State private var state = Project5State()
 
-        // utf16 is needed so obj-c can understand it
-        let range = NSRange(location: 0, length: word.utf16.count)
-        let misspelledRange = checker.rangeOfMisspelledWord(
-            in: word,
-            range: range,
-            startingAt: 0,
-            wrap: false,
-            language: "en"
-        )
-
-        return misspelledRange.location == NSNotFound
-    }
-    
-    func removeWhiteSpace(text paragraph: String) -> String {
-        let words = paragraph.components(separatedBy: "\n")
-        let word = words.randomElement() ?? ""
-        let trimmed = word.trimmingCharacters(in: .whitespacesAndNewlines)
-        
-        return trimmed
-    }
-    
-    //MARK: - Body
+    // MARK: - Body
     var body: some View {
-        List {
-            Section(header: Text("Section 1")) {
-                Text("Static row 1")
-                Text("Static row 2")
-            }
 
-            Section(header: Text("Section 2")) {
-                ForEach(people, id: \.self) {
-                    Text($0)
-                }
-            }
-
-            Section(header: Text("Section 3")) {
-                Text("Static row 3")
-                Text("Static row 4")
+        VStack {
+            TextField("Enter your word", text: $state.newWord, onCommit: { self.state.addNewWord() })
+                .autocapitalization(.none)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+            List(state.usedWords, id: \.self) {
+                Image(systemName: "\($0.count).circle")
+                Text($0)
             }
         }
         .listStyle(GroupedListStyle())
-        .navigationBarTitle("Word Scramble")
+        .navigationBarTitle(state.rootWord.capitalizingFirstLetter())
+        .alert(isPresented: $state.showAlert) {
+            Alert(
+                title: Text(state.alertTitle),
+                message: Text(state.alertMessage),
+                dismissButton: .default(Text("Okay"))
+            )
+        }
+        .onAppear(perform: { self.state.startGame() })
+
     }
 }
 
