@@ -30,6 +30,12 @@ struct ContentView: View {
                         description: "CreateML, CoreML, Stepper, Datepicker, Dates"
                     )
                 }
+                NavigationLink(destination: Project5()) {
+                    makeNavigationItem(
+                        title: "Project 5 (Word Scramble)",
+                        description: "Files, Strings, Lists"
+                    )
+                }
             }
             .navigationBarTitle("Project List")
         }
