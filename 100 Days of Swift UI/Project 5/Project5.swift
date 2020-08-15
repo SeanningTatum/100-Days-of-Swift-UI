@@ -28,6 +28,9 @@ struct Project5: View {
             }
         }
         .listStyle(GroupedListStyle())
+        .navigationBarItems(trailing: Button(action: { self.state.startGame() }) {
+            Text("New Word")
+        })
         .navigationBarTitle(state.rootWord.capitalizingFirstLetter())
         .alert(isPresented: $state.showAlert) {
             Alert(

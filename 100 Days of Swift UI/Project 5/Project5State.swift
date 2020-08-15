@@ -29,28 +29,25 @@ struct Project5State {
         let answer = removeWhiteSpace(text: self.newWord).lowercased()
 
         guard answer.count > 0 else {
-            // Word does not exist
+            showError(title: "Invalid String", message: "")
             return
         }
 
         guard isOriginal(word: self.newWord) else {
-            self.alertTitle = "Be original"
-            self.alertMessage = "Word has already been submitted"
-
+            showError(title: "Be original", message: "Word has already been submitted")
             return
         }
 
         guard isPossible(word: self.newWord) else {
-            self.alertTitle = "Not possible"
-            self.alertMessage = "Word can't be made from the root word"
-
+            showError(
+                title: "Not possible",
+                message: "Word can't be made from the root word"
+            )
             return
         }
 
         guard isReal(word: self.newWord) else {
-            self.alertTitle = "Not real"
-            self.alertMessage = "Word doesn't even exist"
-
+            showError(title: "Not real", message: "Word doesn't even exist")
             return
         }
 
@@ -107,18 +104,25 @@ struct Project5State {
 
     /// Checks if a word can be created from the root word
     mutating private func isPossible(word: String) -> Bool {
-        var tempWord = self.rootWord
-
+        var tempRootWord = self.rootWord.lowercased()
+        let tempWord = word.lowercased()
+        
         // Check if each letter of the word exists in rootWord
-        for letter in word {
-            if let pos = tempWord.firstIndex(of: letter) {
-                tempWord.remove(at: pos)
+        for letter in tempWord {
+            if let pos = tempRootWord.firstIndex(of: letter) {
+                tempRootWord.remove(at: pos)
             } else {
                 return false
             }
         }
 
         return true
+    }
+    
+    mutating private func showError(title: String, message: String) {
+        self.alertTitle = title
+        self.alertMessage = message
+        self.showAlert = true
     }
 }
 
