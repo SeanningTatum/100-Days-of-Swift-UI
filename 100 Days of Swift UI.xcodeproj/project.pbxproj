@@ -17,6 +17,7 @@
 		14865B6824EA653A0088CBF9 /* Project 6 Animation Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */; };
 		1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496B8FD24E8B91A009CE613 /* Project6.swift */; };
 		1496B90024E8C271009CE613 /* Project6 Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */; };
+		14AF67C124EB3D3B006A9567 /* Project 6 View Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF67C024EB3D3B006A9567 /* Project 6 View Modifier.swift */; };
 		14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */; };
 		14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */; };
 		14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C091A124E6C6C3009EF7DD /* Project5.swift */; };
@@ -42,6 +43,7 @@
 		14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Animation Stack.swift"; sourceTree = "<group>"; };
 		1496B8FD24E8B91A009CE613 /* Project6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6.swift; sourceTree = "<group>"; };
 		1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project6 Explicit Animations.swift"; sourceTree = "<group>"; };
+		14AF67C024EB3D3B006A9567 /* Project 6 View Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 View Modifier.swift"; sourceTree = "<group>"; };
 		14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Gestures.swift"; sourceTree = "<group>"; };
 		14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 View Transitions.swift"; sourceTree = "<group>"; };
 		14C091A124E6C6C3009EF7DD /* Project5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */,
 				14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */,
 				14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */,
+				14AF67C024EB3D3B006A9567 /* Project 6 View Modifier.swift */,
 			);
 			path = "Project 6";
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */,
 				1496B90024E8C271009CE613 /* Project6 Explicit Animations.swift in Sources */,
 				1413453024E558FE004730D2 /* View.swift in Sources */,
+				14AF67C124EB3D3B006A9567 /* Project 6 View Modifier.swift in Sources */,
 				14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */,
 				14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,

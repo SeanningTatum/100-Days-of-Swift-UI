@@ -71,7 +71,6 @@ struct Project_6_Gestures: View {
 
             Spacer()
         }
-        .navigationBarTitle("Animating Gestures", displayMode: .inline)
 
     }
 }

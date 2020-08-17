@@ -29,6 +29,9 @@ struct Project6: View {
             NavigationLink(destination: Project_6_View_Transitions()) {
                 Text("View Transitions")
             }
+            NavigationLink(destination: Project_6_View_Modifier()) {
+                Text("View Modifier")
+            }
         }
         .navigationBarTitle("Animations")
     }

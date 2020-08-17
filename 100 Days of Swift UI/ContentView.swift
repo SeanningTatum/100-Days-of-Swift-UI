@@ -44,7 +44,7 @@ struct ContentView: View {
                 NavigationLink(destination: Project6()) {
                     makeNavigationItem(
                         title: "Project 6 (Animations)",
-                        description: "Explicit Animations, Implicit Animations",
+                        description: "Explicit Animations, Implicit Animations, Animation Stack, Gestures, View Transitions, View Modifiers, Extensions",
                         finishDate: "August 16, 2020"
                     )
                 }
