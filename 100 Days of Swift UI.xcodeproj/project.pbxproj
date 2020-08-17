@@ -13,6 +13,12 @@
 		1413453024E558FE004730D2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413452F24E558FE004730D2 /* View.swift */; };
 		142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 142B9F5E24E6B5A500F940FD /* SleepCalculator.mlmodel */; };
 		147BA02724E5727D0046B3DF /* Project4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BA02624E5727D0046B3DF /* Project4.swift */; };
+		14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */; };
+		14865B6824EA653A0088CBF9 /* Project 6 Animation Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */; };
+		1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496B8FD24E8B91A009CE613 /* Project6.swift */; };
+		1496B90024E8C271009CE613 /* Project6 Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */; };
+		14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */; };
+		14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */; };
 		14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C091A124E6C6C3009EF7DD /* Project5.swift */; };
 		14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19224E5328B0099BFAE /* AppDelegate.swift */; };
 		14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19424E5328B0099BFAE /* SceneDelegate.swift */; };
@@ -32,6 +38,12 @@
 		1413452F24E558FE004730D2 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		142B9F5E24E6B5A500F940FD /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		147BA02624E5727D0046B3DF /* Project4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4.swift; sourceTree = "<group>"; };
+		14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Implicit Animations.swift"; sourceTree = "<group>"; };
+		14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Animation Stack.swift"; sourceTree = "<group>"; };
+		1496B8FD24E8B91A009CE613 /* Project6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6.swift; sourceTree = "<group>"; };
+		1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project6 Explicit Animations.swift"; sourceTree = "<group>"; };
+		14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Gestures.swift"; sourceTree = "<group>"; };
+		14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 View Transitions.swift"; sourceTree = "<group>"; };
 		14C091A124E6C6C3009EF7DD /* Project5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5.swift; sourceTree = "<group>"; };
 		14E4B18F24E5328B0099BFAE /* 100 Days of Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100 Days of Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E4B19224E5328B0099BFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +87,19 @@
 			path = "Project 4";
 			sourceTree = "<group>";
 		};
+		1496B8FC24E8B8F1009CE613 /* Project 6 */ = {
+			isa = PBXGroup;
+			children = (
+				1496B8FD24E8B91A009CE613 /* Project6.swift */,
+				1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */,
+				14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */,
+				14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */,
+				14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */,
+				14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */,
+			);
+			path = "Project 6";
+			sourceTree = "<group>";
+		};
 		14C091A024E6C696009EF7DD /* Project 5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +129,12 @@
 		14E4B19124E5328B0099BFAE /* 100 Days of Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				1413452E24E558E4004730D2 /* Extensions */,
 				14E4B1A624E532A50099BFAE /* Project 1 */,
 				14E4B1A924E5448A0099BFAE /* Project 2 */,
 				147BA02524E572580046B3DF /* Project 4 */,
 				14C091A024E6C696009EF7DD /* Project 5 */,
-				1413452E24E558E4004730D2 /* Extensions */,
+				1496B8FC24E8B8F1009CE613 /* Project 6 */,
 				14E4B19224E5328B0099BFAE /* AppDelegate.swift */,
 				14E4B19424E5328B0099BFAE /* SceneDelegate.swift */,
 				14E4B19624E5328B0099BFAE /* ContentView.swift */,
@@ -241,13 +267,19 @@
 			files = (
 				14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */,
 				1407C22924E796600043EA00 /* String.swift in Sources */,
+				14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */,
 				1407C22724E7944C0043EA00 /* Project5State.swift in Sources */,
+				14865B6824EA653A0088CBF9 /* Project 6 Animation Stack.swift in Sources */,
 				147BA02724E5727D0046B3DF /* Project4.swift in Sources */,
 				142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */,
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
 				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
+				14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */,
+				1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */,
+				1496B90024E8C271009CE613 /* Project6 Explicit Animations.swift in Sources */,
 				1413453024E558FE004730D2 /* View.swift in Sources */,
 				14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */,
+				14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,
 				14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */,
 			);

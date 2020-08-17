@@ -9,31 +9,43 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
         NavigationView {
             List {
                 NavigationLink(destination: Project1()) {
                     makeNavigationItem(
                         title: "Project 1 (WeSplit)",
-                        description: "TextField, Segmented Controls, Picker, State, Dismiss Keyboard"
+                        description: "TextField, Segmented Controls, Picker, State, Dismiss Keyboard",
+                        finishDate: "August 13, 2020"
                     )
                 }
                 NavigationLink(destination: Project2()) {
                     makeNavigationItem(
                         title: "Project 2 (Guess the Flag)",
-                        description: "Alerts, View Modifers, Gradients, Images"
+                        description: "Alerts, View Modifers, Gradients, Images",
+                        finishDate: "August 13, 2020"
                     )
                 }
                 NavigationLink(destination: Project4()) {
                     makeNavigationItem(
                         title: "Project 4 (Better Rest)",
-                        description: "CreateML, CoreML, Stepper, Datepicker, Dates"
+                        description: "CreateML, CoreML, Stepper, Datepicker, Dates",
+                        finishDate: "August 14, 2020"
                     )
                 }
                 NavigationLink(destination: Project5()) {
                     makeNavigationItem(
                         title: "Project 5 (Word Scramble)",
-                        description: "Files, Strings, Lists"
+                        description: "Files, Strings, Lists, UIKit, FatalError",
+                        finishDate: "August 15, 2020"
+                    )
+                }
+                NavigationLink(destination: Project6()) {
+                    makeNavigationItem(
+                        title: "Project 6 (Animations)",
+                        description: "Explicit Animations, Implicit Animations",
+                        finishDate: "August 16, 2020"
                     )
                 }
             }
@@ -41,12 +53,20 @@ struct ContentView: View {
         }
     }
 
-    func makeNavigationItem(title: String, description: String) -> some View {
+    func makeNavigationItem(
+            title: String,
+            description: String,
+            finishDate: String
+    ) -> some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(title)
                 .font(.headline)
                 .fontWeight(.medium)
             Text(description)
+                .font(.caption)
+                .fontWeight(.medium)
+                .foregroundColor(Color.gray)
+            Text(finishDate)
                 .font(.caption)
                 .foregroundColor(Color.gray)
         }

@@ -106,7 +106,7 @@ struct Project5State {
     mutating private func isPossible(word: String) -> Bool {
         var tempRootWord = self.rootWord.lowercased()
         let tempWord = word.lowercased()
-        
+
         // Check if each letter of the word exists in rootWord
         for letter in tempWord {
             if let pos = tempRootWord.firstIndex(of: letter) {
@@ -118,7 +118,7 @@ struct Project5State {
 
         return true
     }
-    
+
     mutating private func showError(title: String, message: String) {
         self.alertTitle = title
         self.alertMessage = message
