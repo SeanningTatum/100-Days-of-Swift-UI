@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1406A63024EC09FB00FA8886 /* Project7 Observable Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406A62F24EC09FB00FA8886 /* Project7 Observable Object.swift */; };
+		1406A63224EC0A5900FA8886 /* Project7 Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406A63124EC0A5900FA8886 /* Project7 Sheets.swift */; };
+		1406A63424EC0C6B00FA8886 /* Project7 Deleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406A63324EC0C6B00FA8886 /* Project7 Deleting.swift */; };
+		1406A63624EC0EA600FA8886 /* Project7 UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406A63524EC0EA600FA8886 /* Project7 UserDefaults.swift */; };
+		1406A63824EC121100FA8886 /* Project7 Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1406A63724EC121100FA8886 /* Project7 Codable.swift */; };
 		1407C22524E790680043EA00 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1407C22424E790680043EA00 /* start.txt */; };
 		1407C22724E7944C0043EA00 /* Project5State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407C22624E7944C0043EA00 /* Project5State.swift */; };
 		1407C22924E796600043EA00 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407C22824E796600043EA00 /* String.swift */; };
@@ -18,6 +23,7 @@
 		1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496B8FD24E8B91A009CE613 /* Project6.swift */; };
 		1496B90024E8C271009CE613 /* Project6 Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */; };
 		14AF67C124EB3D3B006A9567 /* Project 6 View Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF67C024EB3D3B006A9567 /* Project 6 View Modifier.swift */; };
+		14AF67C424EB41C4006A9567 /* Project7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AF67C324EB41C4006A9567 /* Project7.swift */; };
 		14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */; };
 		14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */; };
 		14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C091A124E6C6C3009EF7DD /* Project5.swift */; };
@@ -33,6 +39,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1406A62F24EC09FB00FA8886 /* Project7 Observable Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project7 Observable Object.swift"; sourceTree = "<group>"; };
+		1406A63124EC0A5900FA8886 /* Project7 Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project7 Sheets.swift"; sourceTree = "<group>"; };
+		1406A63324EC0C6B00FA8886 /* Project7 Deleting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project7 Deleting.swift"; sourceTree = "<group>"; };
+		1406A63524EC0EA600FA8886 /* Project7 UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project7 UserDefaults.swift"; sourceTree = "<group>"; };
+		1406A63724EC121100FA8886 /* Project7 Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project7 Codable.swift"; sourceTree = "<group>"; };
 		1407C22424E790680043EA00 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		1407C22624E7944C0043EA00 /* Project5State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5State.swift; sourceTree = "<group>"; };
 		1407C22824E796600043EA00 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -44,6 +55,7 @@
 		1496B8FD24E8B91A009CE613 /* Project6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6.swift; sourceTree = "<group>"; };
 		1496B8FF24E8C270009CE613 /* Project6 Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project6 Explicit Animations.swift"; sourceTree = "<group>"; };
 		14AF67C024EB3D3B006A9567 /* Project 6 View Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 View Modifier.swift"; sourceTree = "<group>"; };
+		14AF67C324EB41C4006A9567 /* Project7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7.swift; sourceTree = "<group>"; };
 		14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Gestures.swift"; sourceTree = "<group>"; };
 		14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 View Transitions.swift"; sourceTree = "<group>"; };
 		14C091A124E6C6C3009EF7DD /* Project5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5.swift; sourceTree = "<group>"; };
@@ -103,6 +115,19 @@
 			path = "Project 6";
 			sourceTree = "<group>";
 		};
+		14AF67C224EB41AB006A9567 /* Project 7 */ = {
+			isa = PBXGroup;
+			children = (
+				14AF67C324EB41C4006A9567 /* Project7.swift */,
+				1406A62F24EC09FB00FA8886 /* Project7 Observable Object.swift */,
+				1406A63124EC0A5900FA8886 /* Project7 Sheets.swift */,
+				1406A63324EC0C6B00FA8886 /* Project7 Deleting.swift */,
+				1406A63524EC0EA600FA8886 /* Project7 UserDefaults.swift */,
+				1406A63724EC121100FA8886 /* Project7 Codable.swift */,
+			);
+			path = "Project 7";
+			sourceTree = "<group>";
+		};
 		14C091A024E6C696009EF7DD /* Project 5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +163,7 @@
 				147BA02524E572580046B3DF /* Project 4 */,
 				14C091A024E6C696009EF7DD /* Project 5 */,
 				1496B8FC24E8B8F1009CE613 /* Project 6 */,
+				14AF67C224EB41AB006A9567 /* Project 7 */,
 				14E4B19224E5328B0099BFAE /* AppDelegate.swift */,
 				14E4B19424E5328B0099BFAE /* SceneDelegate.swift */,
 				14E4B19624E5328B0099BFAE /* ContentView.swift */,
@@ -270,11 +296,16 @@
 			files = (
 				14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */,
 				1407C22924E796600043EA00 /* String.swift in Sources */,
+				1406A63824EC121100FA8886 /* Project7 Codable.swift in Sources */,
+				1406A63424EC0C6B00FA8886 /* Project7 Deleting.swift in Sources */,
 				14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */,
 				1407C22724E7944C0043EA00 /* Project5State.swift in Sources */,
+				1406A63224EC0A5900FA8886 /* Project7 Sheets.swift in Sources */,
 				14865B6824EA653A0088CBF9 /* Project 6 Animation Stack.swift in Sources */,
 				147BA02724E5727D0046B3DF /* Project4.swift in Sources */,
+				14AF67C424EB41C4006A9567 /* Project7.swift in Sources */,
 				142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */,
+				1406A63624EC0EA600FA8886 /* Project7 UserDefaults.swift in Sources */,
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
 				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
 				14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */,
@@ -285,6 +316,7 @@
 				14E4B1AC24E544A60099BFAE /* Project2.swift in Sources */,
 				14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,
+				1406A63024EC09FB00FA8886 /* Project7 Observable Object.swift in Sources */,
 				14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

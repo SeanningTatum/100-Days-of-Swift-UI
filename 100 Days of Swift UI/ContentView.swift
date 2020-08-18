@@ -48,6 +48,13 @@ struct ContentView: View {
                         finishDate: "August 16, 2020"
                     )
                 }
+                NavigationLink(destination: Project7()) {
+                    makeNavigationItem(
+                        title: "Project 7 (iExpense)",
+                        description: "Observable Object, Sheets, @Environment, Deleting from Lists, User Defaults, Codable",
+                        finishDate: "August 18, 2020"
+                    )
+                }
             }
             .navigationBarTitle("Project List")
         }
