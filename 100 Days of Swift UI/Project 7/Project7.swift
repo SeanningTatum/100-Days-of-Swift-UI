@@ -13,7 +13,7 @@ struct Project7: View {
     var body: some View {
         List {
             NavigationLink(destination: Project7_Observable_Object()) {
-                Text("Obserqvable Object")
+                Text("Obseravable Object")
             }
             NavigationLink(destination: Project7_Sheets()) {
                 Text("Sheets")
@@ -26,6 +26,9 @@ struct Project7: View {
             }
             NavigationLink(destination: Project7_UserDefaults()) {
                 Text("Codable")
+            }
+            NavigationLink(destination: iExpense()) {
+                Text("iExpense")
             }
         }
         .navigationBarTitle("Project 7")

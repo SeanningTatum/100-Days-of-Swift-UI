@@ -17,6 +17,8 @@
 		1407C22924E796600043EA00 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407C22824E796600043EA00 /* String.swift */; };
 		1413453024E558FE004730D2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1413452F24E558FE004730D2 /* View.swift */; };
 		142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 142B9F5E24E6B5A500F940FD /* SleepCalculator.mlmodel */; };
+		143A921924EC901E003BDAA3 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A921824EC901E003BDAA3 /* iExpense.swift */; };
+		143A921C24EC9551003BDAA3 /* iExpense AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A921B24EC9551003BDAA3 /* iExpense AddView.swift */; };
 		147BA02724E5727D0046B3DF /* Project4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BA02624E5727D0046B3DF /* Project4.swift */; };
 		14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */; };
 		14865B6824EA653A0088CBF9 /* Project 6 Animation Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */; };
@@ -49,6 +51,8 @@
 		1407C22824E796600043EA00 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		1413452F24E558FE004730D2 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		142B9F5E24E6B5A500F940FD /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		143A921824EC901E003BDAA3 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
+		143A921B24EC9551003BDAA3 /* iExpense AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iExpense AddView.swift"; sourceTree = "<group>"; };
 		147BA02624E5727D0046B3DF /* Project4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4.swift; sourceTree = "<group>"; };
 		14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Implicit Animations.swift"; sourceTree = "<group>"; };
 		14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Animation Stack.swift"; sourceTree = "<group>"; };
@@ -92,6 +96,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		143A921A24EC950B003BDAA3 /* iExpense */ = {
+			isa = PBXGroup;
+			children = (
+				143A921824EC901E003BDAA3 /* iExpense.swift */,
+				143A921B24EC9551003BDAA3 /* iExpense AddView.swift */,
+			);
+			path = iExpense;
+			sourceTree = "<group>";
+		};
 		147BA02524E572580046B3DF /* Project 4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +131,7 @@
 		14AF67C224EB41AB006A9567 /* Project 7 */ = {
 			isa = PBXGroup;
 			children = (
+				143A921A24EC950B003BDAA3 /* iExpense */,
 				14AF67C324EB41C4006A9567 /* Project7.swift */,
 				1406A62F24EC09FB00FA8886 /* Project7 Observable Object.swift */,
 				1406A63124EC0A5900FA8886 /* Project7 Sheets.swift */,
@@ -307,6 +321,7 @@
 				142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */,
 				1406A63624EC0EA600FA8886 /* Project7 UserDefaults.swift in Sources */,
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
+				143A921924EC901E003BDAA3 /* iExpense.swift in Sources */,
 				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
 				14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */,
 				1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */,
@@ -317,6 +332,7 @@
 				14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */,
 				14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */,
 				1406A63024EC09FB00FA8886 /* Project7 Observable Object.swift in Sources */,
+				143A921C24EC9551003BDAA3 /* iExpense AddView.swift in Sources */,
 				14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
