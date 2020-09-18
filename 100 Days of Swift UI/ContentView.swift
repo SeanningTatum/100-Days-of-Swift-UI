@@ -55,6 +55,13 @@ struct ContentView: View {
                         finishDate: "August 18, 2020"
                     )
                 }
+                NavigationLink(destination: Project8()) {
+                    makeNavigationItem(
+                        title: "Project 8 (Moonshot)",
+                        description: "Generics, Extensions, Geometry Reader, DateFormatting",
+                        finishDate: "August 30, 2020"
+                    )
+                }
             }
             .navigationBarTitle("Project List")
         }

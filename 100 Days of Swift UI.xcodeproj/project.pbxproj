@@ -19,6 +19,7 @@
 		142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 142B9F5E24E6B5A500F940FD /* SleepCalculator.mlmodel */; };
 		143A921924EC901E003BDAA3 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A921824EC901E003BDAA3 /* iExpense.swift */; };
 		143A921C24EC9551003BDAA3 /* iExpense AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A921B24EC9551003BDAA3 /* iExpense AddView.swift */; };
+		1445FABE24FBA48C007C2FDA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1445FABD24FBA48C007C2FDA /* missions.json */; };
 		147BA02724E5727D0046B3DF /* Project4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147BA02624E5727D0046B3DF /* Project4.swift */; };
 		14865B6624EA64AD0088CBF9 /* Project 6 Implicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */; };
 		14865B6824EA653A0088CBF9 /* Project 6 Animation Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */; };
@@ -29,6 +30,12 @@
 		14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */; };
 		14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */; };
 		14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C091A124E6C6C3009EF7DD /* Project5.swift */; };
+		14CCB6F024FBAC20004D5219 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CCB6EF24FBAC20004D5219 /* MissionView.swift */; };
+		14D3414524FB9BE200A5DEA2 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 14D3414424FB9BE100A5DEA2 /* astronauts.json */; };
+		14D3414724FB9BF500A5DEA2 /* Project8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3414624FB9BF500A5DEA2 /* Project8.swift */; };
+		14D3414924FB9C4700A5DEA2 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3414824FB9C4700A5DEA2 /* Astronaut.swift */; };
+		14D3414B24FB9CA100A5DEA2 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3414A24FB9CA100A5DEA2 /* Bundle-Decodable.swift */; };
+		14D3415024FB9F5200A5DEA2 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D3414F24FB9F5200A5DEA2 /* Mission.swift */; };
 		14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19224E5328B0099BFAE /* AppDelegate.swift */; };
 		14E4B19524E5328B0099BFAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19424E5328B0099BFAE /* SceneDelegate.swift */; };
 		14E4B19724E5328B0099BFAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4B19624E5328B0099BFAE /* ContentView.swift */; };
@@ -53,6 +60,7 @@
 		142B9F5E24E6B5A500F940FD /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		143A921824EC901E003BDAA3 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		143A921B24EC9551003BDAA3 /* iExpense AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iExpense AddView.swift"; sourceTree = "<group>"; };
+		1445FABD24FBA48C007C2FDA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		147BA02624E5727D0046B3DF /* Project4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4.swift; sourceTree = "<group>"; };
 		14865B6524EA64AD0088CBF9 /* Project 6 Implicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Implicit Animations.swift"; sourceTree = "<group>"; };
 		14865B6724EA653A0088CBF9 /* Project 6 Animation Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Animation Stack.swift"; sourceTree = "<group>"; };
@@ -63,6 +71,12 @@
 		14BC400924EAA83E00E2B5EB /* Project 6 Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 Gestures.swift"; sourceTree = "<group>"; };
 		14BC400B24EAAF8E00E2B5EB /* Project 6 View Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project 6 View Transitions.swift"; sourceTree = "<group>"; };
 		14C091A124E6C6C3009EF7DD /* Project5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5.swift; sourceTree = "<group>"; };
+		14CCB6EF24FBAC20004D5219 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		14D3414424FB9BE100A5DEA2 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		14D3414624FB9BF500A5DEA2 /* Project8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8.swift; sourceTree = "<group>"; };
+		14D3414824FB9C4700A5DEA2 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		14D3414A24FB9CA100A5DEA2 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		14D3414F24FB9F5200A5DEA2 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		14E4B18F24E5328B0099BFAE /* 100 Days of Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100 Days of Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E4B19224E5328B0099BFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14E4B19424E5328B0099BFAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +106,7 @@
 			children = (
 				1413452F24E558FE004730D2 /* View.swift */,
 				1407C22824E796600043EA00 /* String.swift */,
+				14D3414A24FB9CA100A5DEA2 /* Bundle-Decodable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -103,6 +118,18 @@
 				143A921B24EC9551003BDAA3 /* iExpense AddView.swift */,
 			);
 			path = iExpense;
+			sourceTree = "<group>";
+		};
+		14675D3A24F1F46F009F7D5B /* Project 8 */ = {
+			isa = PBXGroup;
+			children = (
+				14D3414C24FB9ED700A5DEA2 /* Models */,
+				14D3414424FB9BE100A5DEA2 /* astronauts.json */,
+				1445FABD24FBA48C007C2FDA /* missions.json */,
+				14D3414624FB9BF500A5DEA2 /* Project8.swift */,
+				14CCB6EF24FBAC20004D5219 /* MissionView.swift */,
+			);
+			path = "Project 8";
 			sourceTree = "<group>";
 		};
 		147BA02524E572580046B3DF /* Project 4 */ = {
@@ -152,6 +179,15 @@
 			path = "Project 5";
 			sourceTree = "<group>";
 		};
+		14D3414C24FB9ED700A5DEA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14D3414824FB9C4700A5DEA2 /* Astronaut.swift */,
+				14D3414F24FB9F5200A5DEA2 /* Mission.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		14E4B18624E5328B0099BFAE = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +214,7 @@
 				14C091A024E6C696009EF7DD /* Project 5 */,
 				1496B8FC24E8B8F1009CE613 /* Project 6 */,
 				14AF67C224EB41AB006A9567 /* Project 7 */,
+				14675D3A24F1F46F009F7D5B /* Project 8 */,
 				14E4B19224E5328B0099BFAE /* AppDelegate.swift */,
 				14E4B19424E5328B0099BFAE /* SceneDelegate.swift */,
 				14E4B19624E5328B0099BFAE /* ContentView.swift */,
@@ -274,8 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				14E4B1B124E546E00099BFAE /* .swiftlint.yml in Resources */,
+				1445FABE24FBA48C007C2FDA /* missions.json in Resources */,
 				14E4B19F24E5328F0099BFAE /* LaunchScreen.storyboard in Resources */,
 				14E4B19C24E5328F0099BFAE /* Preview Assets.xcassets in Resources */,
+				14D3414524FB9BE200A5DEA2 /* astronauts.json in Resources */,
 				14E4B19924E5328F0099BFAE /* Assets.xcassets in Resources */,
 				1407C22524E790680043EA00 /* start.txt in Resources */,
 			);
@@ -308,8 +347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D3414B24FB9CA100A5DEA2 /* Bundle-Decodable.swift in Sources */,
+				14D3414724FB9BF500A5DEA2 /* Project8.swift in Sources */,
 				14C091A224E6C6C3009EF7DD /* Project5.swift in Sources */,
 				1407C22924E796600043EA00 /* String.swift in Sources */,
+				14D3414924FB9C4700A5DEA2 /* Astronaut.swift in Sources */,
 				1406A63824EC121100FA8886 /* Project7 Codable.swift in Sources */,
 				1406A63424EC0C6B00FA8886 /* Project7 Deleting.swift in Sources */,
 				14BC400A24EAA83E00E2B5EB /* Project 6 Gestures.swift in Sources */,
@@ -321,8 +363,10 @@
 				142B9F5F24E6B5A500F940FD /* SleepCalculator.mlmodel in Sources */,
 				1406A63624EC0EA600FA8886 /* Project7 UserDefaults.swift in Sources */,
 				14E4B19324E5328B0099BFAE /* AppDelegate.swift in Sources */,
+				14CCB6F024FBAC20004D5219 /* MissionView.swift in Sources */,
 				143A921924EC901E003BDAA3 /* iExpense.swift in Sources */,
 				14E4B1A824E533020099BFAE /* Project1.swift in Sources */,
+				14D3415024FB9F5200A5DEA2 /* Mission.swift in Sources */,
 				14BC400C24EAAF8E00E2B5EB /* Project 6 View Transitions.swift in Sources */,
 				1496B8FE24E8B91A009CE613 /* Project6.swift in Sources */,
 				1496B90024E8C271009CE613 /* Project6 Explicit Animations.swift in Sources */,
